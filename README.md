@@ -16,7 +16,22 @@ With the ability to access real-time data, users can track the performance of th
 
 ## Getting Started
 
-TODO:
+### Prerequisites:
+* Ensure that the system has Power BI Desktop installed.
+* Apply SQL scripts from file Script [bi-Orders-view.sql](src/Sql-Scripts/bi-Orders-view.sql) to create Views which are used as a Data Source.
+* Verify that the custom connection string is correctly configured and that the SQL Server and database are accessible from the system where the report will be deployed.
+
+### Publish Power BI Report
+* Open the [ECommerce-Sales-Report.pbix](src/Power-BI-Files/ECommerce-Sales-Report.pbix) file in Power BI Desktop and check that it loads the data correctly.
+* Publish the report to Power BI Service using the "Publish" button on the "Home" tab of the Power BI Desktop ribbon.
+* Set up data refresh options for the report. Go to the "Datasets" page and click on the ellipsis (...) next to the dataset that corresponds to the report data source. Select "Schedule Refresh" and configure the refresh settings as needed.
+* Ensure that the you have appropriate access to the report and its underlying data sources.
+* Share the report with the System Administrator, assign them to a role with appropriate permissions, or grant them access to the SQL Server database if necessary.
+* Keep Power BI Reports Url. 
+
+### Setup Virto Commerce Module
+* In Virto Commerce, go to the "Setting", "PowerBiReports", "General" and setup "Power BI Reports Url".
+* Virto Commerce uses this url for redirect when manager selects Reports in the Apps menu.   
 
 ## License
 
