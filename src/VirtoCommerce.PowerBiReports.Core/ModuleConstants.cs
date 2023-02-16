@@ -33,7 +33,7 @@ public static class ModuleConstants
             public static SettingDescriptor PowerBiReportsUrl { get; } = new SettingDescriptor
             {
                 Name = "PowerBiReports.PowerBiReportsUrl",
-                GroupName = "PowerBiReports|General",
+                GroupName = "Power BI Reports|General",
                 ValueType = SettingValueType.ShortText,
                 DefaultValue = false,
             };
