@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+    <id>VirtoCommerce.PowerBiReports</id>
+    <version>3.200.0</version>
+    <version-tag></version-tag>
+
+    <platformVersion>3.264.0</platformVersion>
+    <dependencies>
+        <dependency id="VirtoCommerce.Orders" version="3.220.0" />
+    </dependencies>
+
+    <apps>
+        <app id="reports">
+            <title>Reports</title>
+            <description>Power BI Commerce Reports</description>
+            <iconUrl>/apps/reports/power_bi_logo.svg</iconUrl>
+        </app>
+    </apps>
+
+    <title>Power BI Commerce Reports</title>
+    <description>Power BI Commerce Reports for Virto Commerce</description>
+
+    <authors>
+        <author>Oleg Zhuk</author>
+    </authors>
+    <owners>
+        <owner>VirtoCommerce</owner>
+    </owners>
+
+    <projectUrl>https://github.com/VirtoCommerce/vc-module-power-bi-reports</projectUrl>
+    <iconUrl>Modules/$(VirtoCommerce.PowerBiReports)/Content/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <assemblyFile>VirtoCommerce.PowerBiReports.Web.dll</assemblyFile>
+    <moduleType>VirtoCommerce.PowerBiReports.Web.Module, VirtoCommerce.PowerBiReports.Web</moduleType>
+
+    <releaseNotes>First version.</releaseNotes>
+    <copyright>Copyright © 2023 VirtoCommerce. All rights reserved</copyright>
+    <tags>extension module</tags>
+    <useFullTypeNameInSwagger>false</useFullTypeNameInSwagger>
+</module>

@@ -1,0 +1,64 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{95F5E53B-A986-49C2-86AC-4C5B4054D001}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtoCommerce.PowerBiReports.Web", "src\VirtoCommerce.PowerBiReports.Web\VirtoCommerce.PowerBiReports.Web.csproj", "{3FF9D0F1-B661-4940-9BBA-7127CF9E0C54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtoCommerce.PowerBiReports.Data", "src\VirtoCommerce.PowerBiReports.Data\VirtoCommerce.PowerBiReports.Data.csproj", "{35CDD76B-5EC0-42FE-BC5B-1BB58BFA2C91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtoCommerce.PowerBiReports.Core", "src\VirtoCommerce.PowerBiReports.Core\VirtoCommerce.PowerBiReports.Core.csproj", "{CE42FC6A-30B2-4053-B637-CA8151B95CF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B49CD316-9D89-416A-9331-D9CF01D38CDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtoCommerce.PowerBiReports.Tests", "tests\VirtoCommerce.PowerBiReports.Tests\VirtoCommerce.PowerBiReports.Tests.csproj", "{4D630F26-46FD-416A-BF2F-A40D83CC4444}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{022AF438-4613-4BEE-9988-757D0799097E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		module.ignore = module.ignore
+		README.md = README.md
+		VirtoCommerce.PowerBiReports.sln.DotSettings = VirtoCommerce.PowerBiReports.sln.DotSettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FF9D0F1-B661-4940-9BBA-7127CF9E0C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF9D0F1-B661-4940-9BBA-7127CF9E0C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF9D0F1-B661-4940-9BBA-7127CF9E0C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF9D0F1-B661-4940-9BBA-7127CF9E0C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CDD76B-5EC0-42FE-BC5B-1BB58BFA2C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CDD76B-5EC0-42FE-BC5B-1BB58BFA2C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CDD76B-5EC0-42FE-BC5B-1BB58BFA2C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CDD76B-5EC0-42FE-BC5B-1BB58BFA2C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE42FC6A-30B2-4053-B637-CA8151B95CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE42FC6A-30B2-4053-B637-CA8151B95CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE42FC6A-30B2-4053-B637-CA8151B95CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE42FC6A-30B2-4053-B637-CA8151B95CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D630F26-46FD-416A-BF2F-A40D83CC4444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D630F26-46FD-416A-BF2F-A40D83CC4444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D630F26-46FD-416A-BF2F-A40D83CC4444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D630F26-46FD-416A-BF2F-A40D83CC4444}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3FF9D0F1-B661-4940-9BBA-7127CF9E0C54} = {95F5E53B-A986-49C2-86AC-4C5B4054D001}
+		{35CDD76B-5EC0-42FE-BC5B-1BB58BFA2C91} = {95F5E53B-A986-49C2-86AC-4C5B4054D001}
+		{CE42FC6A-30B2-4053-B637-CA8151B95CF0} = {95F5E53B-A986-49C2-86AC-4C5B4054D001}
+		{4D630F26-46FD-416A-BF2F-A40D83CC4444} = {B49CD316-9D89-416A-9331-D9CF01D38CDD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {777D6B0D-4469-4310-A046-125FFE9401CE}
+	EndGlobalSection
+EndGlobal
