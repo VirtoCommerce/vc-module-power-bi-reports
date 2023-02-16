@@ -18,7 +18,7 @@ With the ability to access real-time data, users can track the performance of th
 
 ### Prerequisites:
 * Ensure that the system has Power BI Desktop installed.
-* Apply SQL scripts from file Script [bi-Orders-view.sql](/src/Sql-Scripts/bi-Orders-view.sql) to create Views which are used as a Data Source.
+* Apply SQL scripts from file [Script bi-Orders-view.sql](/src/Sql-Scripts/bi-Orders-view.sql) on Virto Commerce database to create BI Views which are used as a Data Source.
 * Verify that the custom connection string is correctly configured and that the SQL Server and database are accessible from the system where the report will be deployed.
 
 ### Publish Power BI Report
