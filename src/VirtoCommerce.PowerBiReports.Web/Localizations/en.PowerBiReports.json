@@ -11,7 +11,7 @@
   "settings": {
     "PowerBiReports": {
       "PowerBiReportsUrl": {
-        "title": "Power BI Reports Url",
+        "title": "Power BI Reports URL",
         "description": "External link on Power BI Reports"
       }
     }
