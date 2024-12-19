@@ -20,10 +20,12 @@ namespace VirtoCommerce.PowerBiReports.Web.Controllers.Api
         [Authorize(ModuleConstants.Security.Permissions.Read)]
         public ActionResult Redirect()
         {
-            var redirectToPowerBIUrl = _settingsManager.GetValue(ModuleConstants.Settings.General.PowerBiReportsUrl.Name, string.Empty);
+            var redirectToPowerBIUrl = _settingsManager.GetValue<string>(ModuleConstants.Settings.General.PowerBiReportsUrl);
 
             if (string.IsNullOrEmpty(redirectToPowerBIUrl))
+            {
                 return NotFound("PowerBiReportsUrl is not configured in Platfortm Settings");
+            }
 
             return Redirect(redirectToPowerBIUrl);
         }

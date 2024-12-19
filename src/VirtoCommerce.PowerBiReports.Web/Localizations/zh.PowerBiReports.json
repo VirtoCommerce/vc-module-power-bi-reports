@@ -1,0 +1,19 @@
+{
+  "PowerBiReports": {
+    "permissions": {
+      "PowerBiReports:access": "打开 PowerBiReports 菜单",
+      "PowerBiReports:create": "创建与 PowerBiReports 相关的数据",
+      "PowerBiReports:read": "查看与 PowerBiReports 相关的数据",
+      "PowerBiReports:update": "更新与 PowerBiReports 相关的数据",
+      "PowerBiReports:delete": "删除与 PowerBiReports 相关的数据"
+    }
+  },
+  "settings": {
+    "PowerBiReports": {
+      "PowerBiReportsUrl": {
+        "title": "Power BI 报告 URL",
+        "description": "Power BI 报告的外部链接"
+      }
+    }
+  }
+}
