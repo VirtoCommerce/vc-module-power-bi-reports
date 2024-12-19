@@ -1,0 +1,19 @@
+{
+  "PowerBiReports": {
+    "permissions": {
+      "PowerBiReports:access": "Ouvrir le menu PowerBiReports",
+      "PowerBiReports:create": "Créer des données liées à PowerBiReports",
+      "PowerBiReports:read": "Afficher les données liées à PowerBiReports",
+      "PowerBiReports:update": "Mettre à jour les données liées à PowerBiReports",
+      "PowerBiReports:delete": "Supprimer les données liées à PowerBiReports"
+    }
+  },
+  "settings": {
+    "PowerBiReports": {
+      "PowerBiReportsUrl": {
+        "title": "URL des rapports Power BI",
+        "description": "Lien externe vers les rapports Power BI"
+      }
+    }
+  }
+}

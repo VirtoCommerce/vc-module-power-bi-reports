@@ -1,0 +1,19 @@
+{
+  "PowerBiReports": {
+    "permissions": {
+      "PowerBiReports:access": "PowerBiReports メニューを開く",
+      "PowerBiReports:create": "PowerBiReports 関連データを作成",
+      "PowerBiReports:read": "PowerBiReports 関連データを表示",
+      "PowerBiReports:update": "PowerBiReports 関連データを更新",
+      "PowerBiReports:delete": "PowerBiReports 関連データを削除"
+    }
+  },
+  "settings": {
+    "PowerBiReports": {
+      "PowerBiReportsUrl": {
+        "title": "Power BI レポート URL",
+        "description": "Power BI レポートへの外部リンク"
+      }
+    }
+  }
+}
