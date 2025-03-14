@@ -1,8 +1,6 @@
-# Power BI Reports
+# Virto Commerce Power BI Reports Module
 
-## Overview
-
-Power BI Reports module is a powerful analytics tool that allows users to gain valuable insights into their e-commerce operations. With this module, users can connect their Virto Commerce platform data to Microsoft Power BI, which enables them to create interactive and customizable reports and dashboards.
+The Power BI Reports module is a powerful analytics tool that allows users to gain valuable insights into their e-commerce operations. With this module, users can connect their Virto Commerce platform data to Microsoft Power BI, which enables them to create interactive and customizable reports and dashboards.
 
 The module provides a range of pre-built report templates and data models, allowing users to easily extract and visualize critical data on sales, customer behavior, inventory, and more. Additionally, users can customize their reports and dashboards by adding or removing data points, adjusting visuals, and defining specific filters and criteria.
 
@@ -44,6 +42,21 @@ With the ability to access real-time data, users can track the performance of th
 ![Sales Analyze](/docs/media/sales-analyze.png)
 
 ![Smart Report](/docs/media/smart-report.png)
+
+
+## Documentation
+
+* [Power Bi Reports module user documentation](https://docs.virtocommerce.org/platform/user-guide/integrations/power-bi/overview/)
+* [REST API](https://virtostart-demo-admin.govirto.com/docs/index.html?urls.primaryName=VirtoCommerce.PowerBiReports)
+* [View on GitHub](https://github.com/VirtoCommerce/vc-module-power-bi-reports)
+
+## References
+
+* [Deployment](https://docs.virtocommerce.org/platform/developer-guide/Tutorials-and-How-tos/Tutorials/deploy-module-from-source-code/)
+* [Installation](https://docs.virtocommerce.org/platform/user-guide/modules-installation/)
+* [Home](https://virtocommerce.com)
+* [Community](https://www.virtocommerce.org)
+* [Download latest release](https://github.com/VirtoCommerce/vc-module-power-bi-reports/releases/latest)
 
 ## License
 
