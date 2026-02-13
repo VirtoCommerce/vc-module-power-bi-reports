@@ -1,0 +1,19 @@
+{
+  "PowerBiReports": {
+    "permissions": {
+      "PowerBiReports:access": "Åpne PowerBiReports-menyen",
+      "PowerBiReports:create": "Opprette PowerBiReports-relaterte data",
+      "PowerBiReports:read": "Vise PowerBiReports-relaterte data",
+      "PowerBiReports:update": "Oppdatere PowerBiReports-relaterte data",
+      "PowerBiReports:delete": "Slette PowerBiReports-relaterte data"
+    }
+  },
+  "settings": {
+    "PowerBiReports": {
+      "PowerBiReportsUrl": {
+        "title": "URL for Power BI-rapporter",
+        "description": "Ekstern lenke til Power BI-rapporter"
+      }
+    }
+  }
+}

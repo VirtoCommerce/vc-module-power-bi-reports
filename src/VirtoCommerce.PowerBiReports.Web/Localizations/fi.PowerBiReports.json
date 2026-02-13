@@ -1,0 +1,19 @@
+{
+  "PowerBiReports": {
+    "permissions": {
+      "PowerBiReports:access": "Avaa PowerBiReports-valikko",
+      "PowerBiReports:create": "Luo PowerBiReportsiin liittyviä tietoja",
+      "PowerBiReports:read": "Näytä PowerBiReportsiin liittyvät tiedot",
+      "PowerBiReports:update": "Päivitä PowerBiReportsiin liittyviä tietoja",
+      "PowerBiReports:delete": "Poista PowerBiReportsiin liittyviä tietoja"
+    }
+  },
+  "settings": {
+    "PowerBiReports": {
+      "PowerBiReportsUrl": {
+        "title": "Power BI -raporttien URL-osoite",
+        "description": "Ulkoinen linkki Power BI -raportteihin"
+      }
+    }
+  }
+}
