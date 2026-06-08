@@ -14,7 +14,7 @@
         <app id="reports">
             <title>Reports</title>
             <description>Power BI Commerce Reports</description>
-            <iconUrl>/apps/reports/power_bi_logo.svg</iconUrl>
+            <iconUrl>/apps/reports/logo.svg</iconUrl>
         </app>
     </apps>
 
