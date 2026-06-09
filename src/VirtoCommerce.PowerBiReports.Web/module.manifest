@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <module>
     <id>VirtoCommerce.PowerBiReports</id>
-    <version>3.802.0</version>
+    <version>3.803.0</version>
     <version-tag></version-tag>
 
     <platformVersion>3.917.0</platformVersion>
@@ -14,7 +14,7 @@
         <app id="reports">
             <title>Reports</title>
             <description>Power BI Commerce Reports</description>
-            <iconUrl>/apps/reports/power_bi_logo.svg</iconUrl>
+            <iconUrl>/apps/reports/logo.svg</iconUrl>
         </app>
     </apps>
 
