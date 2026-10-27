@@ -35,7 +35,6 @@ public static class ModuleConstants
                 Name = "PowerBiReports.PowerBiReportsUrl",
                 GroupName = "Power BI Reports|General",
                 ValueType = SettingValueType.ShortText,
-                DefaultValue = false,
             };
 
             public static IEnumerable<SettingDescriptor> AllGeneralSettings

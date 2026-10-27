@@ -1,0 +1,19 @@
+{
+  "PowerBiReports": {
+    "permissions": {
+      "PowerBiReports:access": "فتح قائمة تقارير Power BI",
+      "PowerBiReports:create": "إنشاء البيانات المتعلقة بتقارير Power BI",
+      "PowerBiReports:read": "عرض البيانات المتعلقة بتقارير Power BI",
+      "PowerBiReports:update": "تحديث البيانات المتعلقة بتقارير Power BI",
+      "PowerBiReports:delete": "حذف البيانات المتعلقة بتقارير Power BI"
+    }
+  },
+  "settings": {
+    "PowerBiReports": {
+      "PowerBiReportsUrl": {
+        "title": "عنوان URL لتقارير Power BI",
+        "description": "رابط خارجي إلى تقارير Power BI"
+      }
+    }
+  }
+}
